@@ -1,0 +1,17 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: simple_cms_development
+  pool: 5
+  username: simple_cms
+  password: secretpassword
+  
+test:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
